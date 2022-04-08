@@ -1,0 +1,23 @@
+.profile__avatar {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto 2rem;
+    object-fit: cover;
+    border: 2px solid $white;
+    box-shadow: 0 7px 20px rgba(#000, .25);
+    border-radius: 50%;
+}
+
+.profile__name {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.profile__prof {
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #DEDEDE;
+    margin-bottom: 2rem;
+}
