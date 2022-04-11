@@ -20,6 +20,13 @@
     }
 }
 
-.sidebar__content {}
+.sidebar__content {
+    margin-top: -5rem;
+    padding: 0 2rem;
+}
 
-.sidebar__footer {}
+.sidebar__footer {
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}

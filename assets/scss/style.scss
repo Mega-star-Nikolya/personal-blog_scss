@@ -27,6 +27,10 @@ p {
     margin: 0 0 10px;
 }
 
+.btn {
+    padding: 0;
+}
+
 
 /* blocks */
 
@@ -37,3 +41,4 @@ p {
 @import "blocks/container";
 @import "blocks/profile";
 @import "blocks/social";
+@import "blocks/btn";

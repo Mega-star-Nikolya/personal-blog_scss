@@ -3,9 +3,10 @@
     width: 10rem;
     height: 10rem;
     margin: 0 auto 2rem;
+    position: relative;
     object-fit: cover;
     border: 2px solid $white;
-    box-shadow: 0 7px 20px rgba(#000, .25);
+    box-shadow: 0 7px 20px rgba(rgb(88, 88, 88), .25);
     border-radius: 50%;
 }
 
@@ -20,4 +21,14 @@
     text-align: center;
     color: #DEDEDE;
     margin-bottom: 2rem;
+}
+
+.profile__text {
+    padding: 3rem 0;
+    margin: 3rem 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    border-top: 1px solid #3f3f3f;
+    border-bottom: 1px solid #3f3f3f;
 }
