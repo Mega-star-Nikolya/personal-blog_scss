@@ -1,0 +1,42 @@
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    position: relative;
+    &:hover {
+        .nav__link {
+            background-color: $blue;
+        }
+        >.subnav {
+            display: block;
+        }
+    }
+}
+
+.nav__link {
+    display: block;
+    width: 100%;
+    padding: 1.35rem 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.18;
+    text-transform: uppercase;
+    color: $white;
+    text-decoration: none;
+    transition: background-color .2s linear;
+    &.has-subnav {
+        position: relative;
+        padding-right: 3.5rem;
+        &::after {
+            content: "";
+            display: block;
+            border-style: solid;
+            border-width: 6px 5px 0 5px;
+            border-color: $white transparent transparent transparent;
+            position: absolute;
+            top: 50%;
+            right: 1.5rem;
+            transform: translateY(-50%);
+        }
+    }
+}

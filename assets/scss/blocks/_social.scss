@@ -3,3 +3,11 @@
     justify-content: center;
     gap: 1.5rem;
 }
+
+.social__link {
+    filter: grayscale(70%);
+    transition: filter .1s linear;
+    &:hover {
+        filter: grayscale(0);
+    }
+}
