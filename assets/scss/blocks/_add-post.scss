@@ -1,0 +1,63 @@
+.add-post {
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+    background-color: $secondary;
+    box-shadow: 0px 15px 25px rgba($black, 0.45);
+    border-radius: .5rem;
+}
+
+.add-post__form {
+    display: flex;
+    align-items: center;
+}
+
+.add-post__textarea {
+    display: block;
+    width: 80%;
+    height: 2.6rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: $white;
+    background: transparent;
+    border: none;
+    resize: none;
+    &::placeholder {
+        color: #D2D2D2;
+    }
+}
+
+.add-post__form-actions {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.add-post__file,
+.add-post__send {
+    display: block;
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color .2s linear;
+}
+
+.add-post__file {
+    background: #EBEBEB url(../../assets/images/stories/photo_btn.png) center no-repeat;
+    input {
+        display: none;
+    }
+    &:hover {
+        background-color: darken(#EBEBEB, 10%)
+    }
+}
+
+.add-post__send {
+    background: $blue url(../../assets/images/stories/send_btn.png) center no-repeat;
+    &:hover {
+        background-color: darken($blue, 10%)
+    }
+}
