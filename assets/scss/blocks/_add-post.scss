@@ -23,7 +23,7 @@
     border: none;
     resize: none;
     &::placeholder {
-        color: #D2D2D2;
+        color: $light-grey;
     }
 }
 

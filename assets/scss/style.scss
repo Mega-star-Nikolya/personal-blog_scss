@@ -1,6 +1,5 @@
 @import "_vars";
 @import "vendor/reset";
-
 html {
     /* Задаем высоту основного шрифта значение 62.5% дает возможность все делить на 10 и получать rem*/
     font-size: 62.5%;
@@ -48,3 +47,6 @@ p {
 @import "blocks/btn";
 @import "blocks/stories";
 @import "blocks/add-post";
+@import "blocks/post";
+@import "blocks/embed";
+@import "blocks/pagination";
