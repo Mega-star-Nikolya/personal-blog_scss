@@ -1,4 +1,6 @@
-.embed {
+.embed,
+.fr-video {
+    display: block;
     position: relative;
     overflow: hidden;
     &:before {
